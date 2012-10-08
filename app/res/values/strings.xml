@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="pollen_api">2</integer>
+    <string name="app_name">AndFragBootstrap</string>
+    <string name="app_name_large">AndFragBootstrap (stor)</string>
+
+    <string name="refresh">Oppdater</string>
+</resources>

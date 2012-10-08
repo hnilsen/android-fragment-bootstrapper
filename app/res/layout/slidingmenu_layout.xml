@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:padding="4dp"
+              android:id="@+id/slidingmenu_layout">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp" android:paddingTop="4dp" android:paddingRight="4dp" android:paddingBottom="2dp">
+        <ImageView
+                android:layout_width="149dp"
+                android:layout_height="150dp"
+                android:id="@+id/image_menu_regioner"
+                android:layout_gravity="center_horizontal|right|top"
+                android:paddingRight="2dp"
+                android:src="@drawable/icon_menu_main" android:paddingLeft="0dp"
+                android:paddingTop="0dp" android:paddingBottom="0dp"/>
+        <ImageView
+                android:layout_width="149dp"
+                android:layout_height="150dp"
+                android:id="@+id/image_menu_pollen"
+                android:layout_gravity="center|left|top"
+                android:src="@drawable/icon_menu_second"
+                android:paddingLeft="2dp" android:paddingTop="0dp" android:paddingRight="0dp"
+                android:paddingBottom="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp" android:paddingTop="2dp" android:paddingRight="4dp" android:paddingBottom="4dp">
+        <ImageView
+                android:layout_width="298dp"
+                android:layout_height="150dp"
+                android:id="@+id/image_menu_utvikler"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_menu_dev"/>
+    </LinearLayout>
+    <ToggleButton
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton" android:layout_gravity="center"/>
+</LinearLayout>

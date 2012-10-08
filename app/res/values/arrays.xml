@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="first_list">
+        <item>Østlandet med Oslo</item>
+        <item>Sørlandet</item>
+        <item>Rogaland</item>
+        <item>Hordaland</item>
+        <item>Sogn og Fjordane</item>
+        <item>Møre og Romsdal</item>
+        <item>Sentrale fjellstrøk i Sør-Norge</item>
+        <item>Indre Østlandet</item>
+        <item>Trøndelag</item>
+        <item>Nordland</item>
+        <item>Troms</item>
+        <item>Finnmark</item>
+    </string-array>
+    <string-array name="second_list">
+        <item>Norway</item>
+        <item>Sweden</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+    </string-array>
+    <string-array name="third_list">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+    </string-array>
+    <string-array name="main_list">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+        <item>Item 6</item>
+        <item>Item 7</item>
+    </string-array>
+</resources>

@@ -1,10 +1,12 @@
 package no.hnilsen.bootstrapper.app.slidemenu;
 
+import org.holoeverywhere.app.Activity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
-import com.WazaBe.HoloEverywhere.sherlock.SActivity;
 import com.slidingmenu.lib.SlidingMenu;
+import com.slidingmenu.lib.app.SlidingActivity;
 import com.slidingmenu.lib.app.SlidingActivityBase;
 import com.slidingmenu.lib.app.SlidingActivityHelper;
 
@@ -15,7 +17,7 @@ import com.slidingmenu.lib.app.SlidingActivityHelper;
  *
  * Helper class to bundle ActionBarSherlock with SlidingMenu
  */
-public class SlidingSherlockFragmentActivity extends SActivity implements SlidingActivityBase {
+public class SlidingSherlockFragmentActivity extends Activity implements SlidingActivityBase {
 
     private SlidingActivityHelper mHelper;
 
@@ -70,15 +72,25 @@ public class SlidingSherlockFragmentActivity extends SActivity implements Slidin
         mHelper.toggle();
     }
 
-    public void showAbove() {
-        mHelper.showAbove();
-    }
-
-    public void showBehind() {
-        mHelper.showBehind();
-    }
-
     public void setSlidingActionBarEnabled(boolean b) {
         mHelper.setSlidingActionBarEnabled(b);
     }
+
+	@Override
+	public void showContent() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showMenu() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showSecondaryMenu() {
+		// TODO Auto-generated method stub
+		
+	}
 }

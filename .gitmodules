@@ -1,0 +1,15 @@
+[submodule "contrib/ActionBarSherlock"]
+	path = contrib/ActionBarSherlock
+	url = https://github.com/JakeWharton/ActionBarSherlock.git
+
+[submodule "contrib/SlidingMenu"]
+	path = contrib/SlidingMenu
+	url = https://github.com/jfeinstein10/SlidingMenu.git
+
+[submodule "contrib/ViewPagerIndicator"]
+	path = contrib/ViewPagerIndicator
+	url = https://github.com/JakeWharton/Android-ViewPagerIndicator.git
+
+[submodule "contrib/HoloEverywhere"]
+	path = contrib/HoloEverywhere
+	url = https://github.com/ChristopheVersieux/HoloEverywhere.git

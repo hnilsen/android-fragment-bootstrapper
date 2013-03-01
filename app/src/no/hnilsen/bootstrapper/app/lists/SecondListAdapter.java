@@ -5,8 +5,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
-import com.WazaBe.HoloEverywhere.LayoutInflater;
-import com.WazaBe.HoloEverywhere.widget.TextView;
+import org.holoeverywhere.LayoutInflater;
+import org.holoeverywhere.widget.TextView;
 import no.hnilsen.bootstrapper.R;
 
 public class SecondListAdapter extends BaseAdapter {

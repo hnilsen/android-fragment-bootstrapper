@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ListView;
-import com.WazaBe.HoloEverywhere.app.Activity;
-import com.WazaBe.HoloEverywhere.app.ListFragment;
+import org.holoeverywhere.app.Activity;
+import org.holoeverywhere.app.ListFragment;
 import no.hnilsen.bootstrapper.R;
 import no.hnilsen.bootstrapper.app.activities.SecondActivity;
 import no.hnilsen.bootstrapper.app.lists.MainListAdapter;
@@ -84,7 +84,7 @@ public class MainListFragment extends ListFragment {
     }
 
     @Override
-    public void onListItemClick(com.WazaBe.HoloEverywhere.widget.ListView l, View v, int position, long id) {
+    public void onListItemClick(org.holoeverywhere.widget.ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
         mExampleId = position;
         showSecondFragment();

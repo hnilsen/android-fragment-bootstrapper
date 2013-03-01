@@ -3,8 +3,8 @@ package no.hnilsen.bootstrapper.app.slidemenu;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
-import com.WazaBe.HoloEverywhere.LayoutInflater;
-import com.WazaBe.HoloEverywhere.app.Fragment;
+import org.holoeverywhere.LayoutInflater;
+import org.holoeverywhere.app.Fragment;
 import no.hnilsen.bootstrapper.R;
 
 /**

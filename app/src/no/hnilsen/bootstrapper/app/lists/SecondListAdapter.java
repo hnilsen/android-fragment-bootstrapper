@@ -1,12 +1,12 @@
 package no.hnilsen.bootstrapper.app.lists;
 
 import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
-import org.holoeverywhere.LayoutInflater;
-import org.holoeverywhere.widget.TextView;
+import android.widget.TextView;
 import no.hnilsen.bootstrapper.R;
 
 public class SecondListAdapter extends BaseAdapter {

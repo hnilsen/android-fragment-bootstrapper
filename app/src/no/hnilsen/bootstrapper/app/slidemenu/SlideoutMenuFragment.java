@@ -1,10 +1,10 @@
 package no.hnilsen.bootstrapper.app.slidemenu;
 
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import org.holoeverywhere.LayoutInflater;
-import org.holoeverywhere.app.Fragment;
 import no.hnilsen.bootstrapper.R;
 
 /**
@@ -29,6 +29,6 @@ public class SlideoutMenuFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.slidingmenu_layout);
+        return inflater.inflate(R.layout.slidingmenu_layout, null);
     }
 }

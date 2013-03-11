@@ -1,13 +1,13 @@
 package no.hnilsen.bootstrapper.app.fragments;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.ListFragment;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ListView;
-import org.holoeverywhere.app.Activity;
-import org.holoeverywhere.app.ListFragment;
 import no.hnilsen.bootstrapper.R;
 import no.hnilsen.bootstrapper.app.activities.SecondActivity;
 import no.hnilsen.bootstrapper.app.lists.MainListAdapter;
@@ -84,7 +84,7 @@ public class MainListFragment extends ListFragment {
     }
 
     @Override
-    public void onListItemClick(org.holoeverywhere.widget.ListView l, View v, int position, long id) {
+    public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
         mExampleId = position;
         showSecondFragment();

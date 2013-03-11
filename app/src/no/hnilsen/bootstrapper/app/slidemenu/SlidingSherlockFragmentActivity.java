@@ -1,12 +1,10 @@
 package no.hnilsen.bootstrapper.app.slidemenu;
 
-import org.holoeverywhere.app.Activity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
+import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.slidingmenu.lib.SlidingMenu;
-import com.slidingmenu.lib.app.SlidingActivity;
 import com.slidingmenu.lib.app.SlidingActivityBase;
 import com.slidingmenu.lib.app.SlidingActivityHelper;
 
@@ -17,7 +15,7 @@ import com.slidingmenu.lib.app.SlidingActivityHelper;
  *
  * Helper class to bundle ActionBarSherlock with SlidingMenu
  */
-public class SlidingSherlockFragmentActivity extends Activity implements SlidingActivityBase {
+public class SlidingSherlockFragmentActivity extends SherlockFragmentActivity implements SlidingActivityBase {
 
     private SlidingActivityHelper mHelper;
 

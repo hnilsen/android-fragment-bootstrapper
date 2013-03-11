@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.AndFragBootstrapTheme" parent="Holo.Theme.Light">
+    <style name="Theme.AndFragBootstrapTheme" parent="Theme.Sherlock">
         <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
     </style>
 </resources>

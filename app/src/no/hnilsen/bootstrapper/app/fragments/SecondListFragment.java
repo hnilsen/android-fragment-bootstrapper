@@ -1,16 +1,16 @@
 package no.hnilsen.bootstrapper.app.fragments;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListAdapter;
 import android.widget.ListView;
-import org.holoeverywhere.LayoutInflater;
-import org.holoeverywhere.app.Activity;
-import org.holoeverywhere.app.Fragment;
 import com.viewpagerindicator.TabPageIndicator;
 import no.hnilsen.bootstrapper.R;
 import no.hnilsen.bootstrapper.app.lists.SecondListAdapter;
